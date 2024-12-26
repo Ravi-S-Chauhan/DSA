@@ -1,0 +1,2 @@
+Error: Could not find or load main class pattern
+Caused by: java.lang.ClassNotFoundException: pattern
