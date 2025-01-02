@@ -15,15 +15,15 @@ public class Selection {
             for(int j=i;j<n;j++){
                 if (arr[mn]>arr[j]) mn = j;
             }
-            swap(arr[i],arr[mn]);
+            swap(arr,i,mn);
         }
     }
 
     private static void printArray(int[] arr){
-        logger.info("Array \n");
         for(int ar:arr){
-            logger.info(ar+" ");
+            System.out.print(ar+" ");
         }
+        System.out.println();
     }
     public static void main(String[] args){
         logger.info("Selection Sort");
